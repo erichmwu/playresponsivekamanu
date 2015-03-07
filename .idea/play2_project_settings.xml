@@ -24,19 +24,26 @@
             </ProjectSettingsEntry>
           </value>
         </entry>
+        <entry key="playresponsivekamanu">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.3.7.jar" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
               <option name="version" value="2.3.7" />
-              <option name="sourceDir" value="$PROJECT_DIR$/app" />
-              <option name="confDir" value="$PROJECT_DIR$/conf" />
+              <option name="sourceDir" value="C:\Users\yamisekai\Documents\Spring2015\ICS613\playresponsivekamanu\conf" />
+              <option name="confDir" value="C:\Users\yamisekai\Documents\Spring2015\ICS613\playresponsivekamanu\app" />
               <option name="routesImports">
                 <list>
                   <option value="controllers.Assets.Asset" />
                   <option value="play.libs.F" />
                 </list>
               </option>
-              <option name="uri" value="$PROJECT_DIR$" />
+              <option name="uri" value="/C:/Users/yamisekai/Documents/Spring2015/ICS613/playresponsivekamanu" />
             </ProjectSettingsEntry>
           </value>
         </entry>
