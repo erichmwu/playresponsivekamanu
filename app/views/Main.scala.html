@@ -28,16 +28,16 @@
               <!--  Display three horizontal lines when navbar collapsed. -->
             <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="@routes.Assets.at("images/header-logo.jpg")"></a>
+          <a class="navbar-brand" href="@routes.Application.index()"><img src="@routes.Assets.at("images/header-logo.jpg")"></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="@routes.Application.index()">Store</a></li>
-            <li><a href="@routes.Application.index()">Pueo</a></li>
-            <li><a href="@routes.Application.index()">Aukahi</a></li>
-            <li><a href="@routes.Application.index()">Kamanu V6</a></li>
+            <li class="@("active".when(page == "Home"))"><a href="@routes.Application.index()">Store</a></li>
+            <li class="@("active".when(page == "Pueo"))"><a href="@routes.Application.pueo()">Pueo</a></li>
+            <li class="@("active".when(page == "Aukahi"))"><a href="@routes.Application.aukahi()">Aukahi</a></li>
+            <li class="@("active".when(page == "Kamanu"))"><a href="@routes.Application.kamanu()">Kamanu V6</a></li>
             <li><a href="@routes.Application.index()">Iho</a></li>
-            <li class="last"><a href="@routes.Application.index()">About</a></li>
+            <li class="last @("active".when(page == "Kamanu"))"><a href="@routes.Application.about()">About</a></li>
           </ul>
         </div>
       </div>

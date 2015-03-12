@@ -8,7 +8,7 @@ body {
 
 .navbar-inverse {
   height: 81px;
-  background-image: url("http://www.kamanucomposites.com/static/images/bg-carbon.jpg");
+  background-image: url("../images/bg-carbon.jpg");
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -37,7 +37,35 @@ body {
 }
 
 .paddling {
-  background-image: url("http://www.kamanucomposites.com/static/images/www/pueo-canoes-front.jpg");
+  background-image: url("../images/pueo-canoes-front.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.pueo {
+  background-image: url("../images/cover-pueo-page.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.aukahi {
+  background-image: url("../images/cover-aukahi.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.kamanu {
+  background-image: url("../images/cover-v6-page.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.about {
+  background-image: url("../images/cover-about-eono.jpg");
   background-size: cover;
   background-position: center;
   height: 385px;
